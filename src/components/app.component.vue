@@ -5,11 +5,9 @@
                  @click="sidebarIsVisible=!sidebarIsVisible" :class="{'menu-button-click' : !sidebarIsVisible}">
                 <span>=</span>
             </div>
-            <a href="#">
-                <h1>
-                    Employees managment application
-                </h1>
-            </a>
+            <h1>
+            Employees managment application
+            </h1>
         </div>
         <transition name="sidebar">
             <div class="sidebar shadow-lg bg-white rounded" v-if="sidebarIsVisible">
@@ -78,14 +76,15 @@
 
     .header {
         height: 100px;
-        background: skyblue;
+        background: #3a4feb;
+        padding: 0;
     }
 
     .header h1 {
-        text-shadow: 3px 3px 5px white, -3px -3px 5px white;
+        height: 100%;
         margin-left: 50px;
         display: inline-block;
-        color: blue;
+        color: white;
     }
 
     .activeLink {

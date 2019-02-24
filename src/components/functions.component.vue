@@ -49,7 +49,7 @@
                     <div class="form-group">
                         <label>Information</label>
                         <textarea cols="30" rows="10" class="form-control"
-                                  placeholder="no more than 100 symbols"></textarea>
+                                  placeholder="no more than 100 symbols" v-model="info"></textarea>
                         <div class="progress mt-2">
                             <div class="progress-bar bg-info" role="progressbar" style="width: 100%"
                                  :aria-valuenow="employee.counter-100" aria-valuemin="0" aria-valuemax="100">
